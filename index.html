@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Webchallenge1</title>
+        <meta charset="UTF-8">
+        <!--plugin-->
+        <script src="plugins/jquery2.js"></script>
+        <link rel="stylesheet" href="plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <!--moje-->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-img-wrapper img-tint">
+                <img src="img/top-logo.png">
+            </div>
+        </header>
+        <div class="forms-container">
+            <div class="forms-col">
+                <h1>Register form</h1>
+                <div class="form-tint">
+                    <form class="form">
+                        <div class="input-box">
+                            <span style="background-image: url('img/user-icon.png')"></span>
+                            <input class="input-field" type="text" name="username" placeholder="Username">
+                        </div>
+                        <div class="input-box">
+                            <span style="background-image: url('img/password-icon.png')"></span>
+                            <input class="input-field" type="password" name="password" placeholder="Password">
+                        </div>
+                        <div class="input-box">
+                            <span style="background-image: url('img/password-icon.png')"></span>
+                            <input class="input-field" type="password" name="password-confirm" placeholder="Confirm password">
+                        </div>
+                        <div class="input-box">
+                            <span style="background-image: url('img/email-icon.png')"></span>
+                            <input class="input-field" type="text" name="email" placeholder="Email">
+                        </div>
+                        <div class="input-box">
+                            <span style="background-image: url('img/location-icon.png')"></span>
+                            <select class="input-field">
+                                <option>Your location</option>
+                            </select>
+                        </div>
+                        <label class="checkbox-box">
+                            <input type="checkbox" name="terms" id="checkbox-terms">
+                            <span><span></span></span>
+                            I have read and accept the terms of use.
+                        </label>
+                        <input type="submit" class="input-submit" name="register-form" value="Sign up">
+                    </form>
+                </div>
+                
+                <h1>Send e-mail</h1>
+                <div class="form-tint">
+                    <form class="form">
+                        <div class="input-box">
+                            <span style="background-image: url('img/user-icon.png')"></span>
+                            <input class="input-field" type="text" name="username" placeholder="Your name">
+                        </div>
+                        <div class="input-box">
+                            <span style="background-image: url('img/email-icon.png')"></span>
+                            <input class="input-field" type="text" name="email" placeholder="Your email">
+                        </div>
+                        <textarea class="input-box text-area" rows="11" placeholder="Type your message..."></textarea>
+                        <label class="checkbox-box">
+                            <input type="checkbox" name="send-email-copy">
+                            <span><span></span></span>
+                            Send a copy to my email
+                        </label>
+                        <input type="submit" class="input-submit" name="send-email-form" value="Send Email">
+
+                    </form>
+                </div>
+            </div>
+            
+            <div class="forms-col">
+                <h1>Sign in</h1>
+                <div class="form-tint">
+                <form class="form">
+                    <div class="input-box">
+                        <span style="background-image: url('img/user-icon.png')"></span>
+                        <input class="input-field" type="text" name="username" placeholder="Username">
+                    </div>
+                    <div class="input-box">
+                        <span style="background-image: url('img/password-icon.png')"></span>
+                        <input class="input-field" type="password" name="password" placeholder="Password">
+                    </div>
+                    <div class="sign-in-submit">
+                        <label class="checkbox-box">
+                            <input type="checkbox" name="checkbox-remember">
+                            <span><span></span></span>
+                            Remember me
+                        </label>
+                        <input type="submit" class="input-submit" name="login-form" value="Sign up">
+                    </div>
+                </form>
+                </div>
+                
+                <h1>Recover form</h1>
+                <div class="form-tint">
+                    <form class="form">
+                        <div class="input-box">
+                            <span style="background-image: url('img/email-icon.png')"></span>
+                            <input class="input-field" type="text" name="email" placeholder="Email">
+                        </div>
+                        <div class="input-box">
+                            <span style="background-image: url('img/phone-icon.png')"></span>
+                            <input class="input-field" type="text" name="phone" placeholder="Email">
+                        </div>
+                        <div class="sign-in-submit">
+                            <input type="submit" class="input-submit" name="recovery-form" value="Sign up">
+                            <input type="submit" class="input-submit" name="recovery-done-from" value="Sign up">
+                        </div>
+                    </form>
+                </div>
+                
+                <h1>Subscribe form</h1>
+                <div class="form-tint">
+                    <form class="form">
+                        <div class="input-box">
+                            <span style="background-image: url('img/email-icon.png')"></span>
+                            <input class="input-field" type="text" name="email" placeholder="Email">
+                        </div>
+
+                        <div class="sign-in-submit">
+                            <input type="submit" class="input-submit" name="subscribe-form" value="Subscribe">
+                            <input type="submit" class="input-submit input-refuse" name="no-subscribe-from" value="No thanks">
+                        </div>
+                    </form>
+                </div>
+                <img class="bottom-image img-tint" src="img/bottom-logo-text.png">
+                
+            </div>
+        </div>
+        
+    </body>
+</html>
